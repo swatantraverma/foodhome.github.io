@@ -1,0 +1,307 @@
+.about-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+   #h1 {
+       font-weight: 600;
+       font-size: 30px;
+       color: var(--light-black);
+       text-transform: capitalize;
+       text-align: center;
+       margin-bottom: 33px;
+   }
+   
+   #h2 {
+       font-weight: 400;
+       font-size: 23px;
+       color: var(--light-black);
+       text-transform: capitalize;
+       text-align: center;
+       margin-bottom: 15px;
+   }
+   
+   #p {
+       line-height: 25px;
+       padding: 0px 25px;
+       font-size: 14px;
+       color: var(--light-black);
+       text-align: center;
+   }
+   
+   #btn {
+       background-color: var(--red);
+       padding: 7px 12px;
+       color: var(--white);
+       display: inline-block;
+       transition: all .25s ease-in-out;
+       cursor: pointer;
+       margin: 20px 0px;
+   }
+   
+   #btn:hover {
+       filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+       color: var(--black);
+   }
+   /* BANNER-START */
+   
+   .bannerr .service-banner {
+       position: relative;
+       display: flex;
+   }
+   
+   .bannerr .service-banner .about-banner-absolute-img {
+       width: 300px;
+       position: absolute;
+       top: -70px;
+       left: -30px;
+   }
+   /* BANNER-END */
+   /* ABOUT-US-SECTION-START  */
+   
+   .about {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+       width: 100%;
+       margin-top: 50px;
+       flex-wrap: wrap;
+       position: relative;
+       background-image: url('../food-img-files/contact-page-background-img.jpg');
+       background-attachment: fixed;
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
+   
+   .about .inner-about {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+       width: 100%;
+       flex-direction: column;
+       padding: 60px 30px;
+       background-color: rgba(0, 0, 0, 0.700);
+   }
+   
+   .about .about-page-absolute-img {
+       position: absolute;
+       width: 250px;
+       top: 80%;
+       right: 0px
+   }
+   
+   .about .contct-page-absolute-img-second-img {
+       bottom: 80%;
+       left: 80%;
+   }
+   
+   .about h1 {
+       font-size: 30px;
+       font-weight: 600;
+       text-transform: uppercase;
+       color: var(--white);
+       margin-bottom: 30px;
+   }
+   
+   .about .inner-about #p {
+       text-align: justify;
+       color: var(--white)
+   }
+   /* ABOUT-US-SECTION-END  */
+   /* OUR-TEAM-SECTION-START */
+   
+   .our-team {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: auto;
+       padding: 30px;
+   }
+   
+   .our-team .inner-our-team {
+       width: 100%;
+       height: auto;
+       margin: 50px 0px;
+   }
+   
+   .our-team .inner-our-team .team-section {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-wrap: wrap;
+       width: 100%;
+       height: auto;
+       color: var(--white);
+   }
+   
+   .our-team .inner-our-team .team-section .team {
+       background-color: var(--white);
+       height: 400px;
+       width: 350px;
+       position: relative;
+       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+       transition: all 1s ease-in-out .5s;
+       margin: 90px 0px 0px 0px;
+   }
+   
+   .our-team .inner-our-team .team-section .team .img {
+       width: 170px;
+       height: 170px;
+       position: absolute;
+       top: -17%;
+       left: 50%;
+       border-radius: 50%;
+       transform: translateX(-50%);
+       overflow: hidden;
+       transition: all .25s ease-in-out;
+   }
+   
+   .our-team .inner-our-team .team-section .team .img img {
+       width: 100%;
+   }
+   
+   .our-team .inner-our-team .team-section .team h2 {
+       margin-top: 35%;
+       transition: all 1s ease-in-out;
+       color: var(--red) !important;
+   }
+   
+   .our-team .inner-our-team .team-section .team .content {
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+   }
+   
+   .our-team .inner-our-team .team-section .team .content::before {
+       content: "";
+       position: absolute;
+       bottom: 0%;
+       width: 100%;
+       height: 8px;
+       background-color: var(--red);
+   }
+   
+   .our-team .inner-our-team .team-section .team .content div {
+       position: absolute;
+       top: 40%;
+       transition: all 1s ease-in-out .5s;
+   }
+   
+   @media only screen and (max-width: 1100px) {
+       .our-team .inner-our-team .team-section {
+           justify-content: center;
+       }
+       .our-team .inner-our-team .team-section .team {
+           margin: 90px 20px 0px 20px;
+       }
+   }
+   /*  OUR-TEAM-SECTION-END */
+   /* OUR-MISSION-SECTION-START */
+   
+   .our-mission-vision {
+       display: flex;
+       justify-content: center;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision {
+       display: flex;
+       margin: 20px 0px;
+       padding: 20px;
+       position: relative;
+       justify-content: space-between;
+       background-color: var(--skin);
+       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .our-mission-vision-conent {
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: flex-end;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-heading {
+       width: 25%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-heading #h2 {
+       color: var(--white);
+       font-weight: 600;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-heading #h2 span {
+       color: var(--red);
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .divider {
+       background-color: var(--red);
+       height: 70%;
+       width: 3px;
+       position: absolute;
+       left: 25%;
+       top: 50%;
+       transform: translatey(-50%);
+       transition: all .5s ease-in-out;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-conent {
+       padding: 0px 25px;
+       width: 68%;
+       margin: 50px 0px;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-conent #p {
+       color: var(--white);
+       text-align: left;
+       padding: 0px;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-conent #btn {
+       margin-bottom: 0px;
+   }
+   
+   .our-mission-vision .inner-our-mission-vision .mission-vision .vision-divider {
+       left: 75%;
+   }
+   
+   @media only screen and (max-width: 768px) {
+       .our-mission-vision .inner-our-mission-vision .mission-vision {
+           justify-content: center;
+           flex-wrap: wrap;
+           padding: 50px 20px;
+       }
+       .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-heading {
+           width: 100%;
+           margin-bottom: 20px;
+       }
+       .our-mission-vision .inner-our-mission-vision .mission-vision .our-mission-vision-conent {
+           width: 100%;
+           margin: 0px;
+       }
+       .our-mission-vision .inner-our-mission-vision .divider {
+           display: none;
+       }
+       .our-mission-vision .inner-our-mission-vision .mission-vision .mission-heading {
+           order: 2;
+       }
+       .our-mission-vision .inner-our-mission-vision .mission-vision .mission-content {
+           order: 1;
+       }
+   }
+   /* OUR-MISSION-SECTION-END */

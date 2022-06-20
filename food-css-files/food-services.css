@@ -1,0 +1,214 @@
+.bannerr .service-banner {
+    position: relative;
+}
+
+.bannerr .service-banner .service-banner-absolute-img {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 170px;
+    filter: drop-shadow(0px 5px 10px var(--light-black));
+}
+
+
+/* SERVICES-INFO-BOXES-START */
+
+.services-info-box .inner-services-info-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+    flex-wrap: wrap;
+    background-color: var(--white);
+}
+
+.services-info-box .inner-services-info-box .heading-img-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .25s ease-in-out;
+    padding: 20px 0px 0px 0px;
+}
+
+.services-info-box .inner-services-info-box .product-section {
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.services-info-box .inner-services-info-box .heading-img-content #h1 {
+    color: var(--light-black);
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.services-info-box .inner-services-info-box .heading-img-content .cards-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    flex-wrap: wrap;
+}
+
+.services-info-box .inner-services-info-box .heading-img-content .cards-box .card {
+    background-color: var(--white);
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    margin: 0px 10px;
+    box-shadow: 0px 1px 15px var(--light-black);
+    border-bottom: 5px solid var(--red);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-info-box .inner-services-info-box .heading-img-content .cards-box .card img {
+    width: 100%;
+}
+
+.services-info-box .inner-services-info-box .heading-img-content .product-content {
+    background-color: var(--red);
+    padding: 70px 50px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.services-info-box .inner-services-info-box .heading-img-content .product-content #p {
+    color: var(--white);
+}
+
+.services-info-box .inner-services-info-box .heading-img .img {
+    width: 400px;
+    height: 400px;
+    background-color: var(--black);
+    overflow: hidden;
+}
+
+.services-info-box .inner-services-info-box .heading-img .img img {
+    height: 100%;
+}
+
+.services-info-box .inner-services-info-box .content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: auto;
+}
+
+.services-info-box .inner-services-info-box .content #h1 {
+    color: var(--red);
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid var(--red)
+}
+
+.services-info-box .inner-services-info-box .content #p {
+    text-align: justify;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .services-info-box .inner-services-info-box .heading-img-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .services-info-box .inner-services-info-box .heading-img .img {
+        display: block;
+        margin: 0px auto;
+        width: 250px;
+        height: 250px;
+    }
+    .services-info-box .inner-services-info-box .content #p {
+        text-align: justify;
+    }
+    .services-info-box .inner-services-info-box .heading-img-content .content {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .services-info-box .inner-services-info-box .heading-img-content .cards-box .card {
+        margin-bottom: 30px;
+    }
+}
+
+.services-info-box .inner-services-info-box .home-delivery {
+    display: flex;
+}
+
+
+/* SERVICES-INFO-BOXES-END */
+
+.delivery-quality-gifts .inner-delivery-quality-gifts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards {
+    width: 430px;
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .img {
+    width: 100%;
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .img img {
+    width: 100%;
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .content {
+    padding: 50px;
+    color: var(--white);
+    background-color: var(--skin);
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .content .heading {
+    color: var(--red);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .content .heading h1 {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--red)
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .content p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .khow-more {
+    background-color: var(--red);
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--skin);
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+.delivery-quality-gifts .inner-delivery-quality-gifts .all-cards .khow-more:hover {
+    background-color: var(--white);
+    color: var(--red)
+}
+
+@media only screen and (max-width: 1100px) {
+    .delivery-quality-gifts .inner-delivery-quality-gifts .all-cards {
+        margin-bottom: 30px;
+    }
+}

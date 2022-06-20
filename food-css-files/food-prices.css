@@ -1,0 +1,181 @@
+.price-box .price-absolute-img,
+.bannerr .service-banner .service-banner-absolute-img {
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.price-box .price-absolute-img {
+    width: 250px;
+    z-index: 2;
+    left: -70px;
+}
+
+.price-box .first {
+    top: 0px;
+}
+
+.price-box .second {
+    top: 55%;
+    width: 330px;
+    left: -90px;
+}
+
+.price-box .third {
+    top: 68%;
+    width: 450px;
+    left: 78%;
+}
+
+.price-box .fourth {
+    top: 15%;
+    width: 300px;
+    left: 80%;
+}
+
+.price-box {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.price-box .inner-price-box {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price-box .inner-price-box .product-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-box .inner-price-box .price-cards {
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(.95);
+    transition: all .5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.price-box .inner-price-box .price-cards .price {
+    position: absolute;
+    top: 55%;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--red);
+    transition: all .5s ease-in-out;
+}
+
+.price-box .inner-price-box .price-cards:hover .price {
+    color: var(--light-black);
+}
+
+.price-box .inner-price-box .price-cards #p {
+    position: absolute;
+    top: 65%;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.price-box .inner-price-box .price-cards .btn {
+    text-transform: capitalize;
+    position: absolute;
+    top: 100%;
+    transition: all .25s ease-in-out .5s;
+}
+
+.price-box .inner-price-box .price-cards:hover .btn {
+    top: 74%;
+}
+
+.price-box .inner-price-box .price-cards .btn a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.price-box .inner-price-box .price-cards:before {
+    content: "";
+    position: absolute;
+    bottom: -150%;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: var(--red);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out .10s;
+}
+
+.price-box .inner-price-box .price-cards:hover:before {
+    bottom: -98%;
+}
+
+
+/* .price-box .inner-price-box .price-cards:after {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    right: 0px;
+    background-color: var(--red);
+    width: 0%;
+    height: 3px;
+    transition: all .5s ease-in-out .5s;
+}
+
+.price-box .inner-price-box .price-cards:hover:after {
+    width: 50%;
+} */
+
+.price-box .inner-price-box .price-cards:hover {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+}
+
+.price-box .inner-price-box .price-cards i {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 50px 0px 20px 0px;
+    transition: all .5s ease-in-out;
+    margin-top: 60px;
+}
+
+.price-box .inner-price-box .price-cards:hover i {
+    color: var(--red);
+}
+
+.price-box .inner-price-box hr {
+    height: 2px;
+    color: var(--light-black);
+}
+
+@media only screen and (max-width: 768px) {
+    .price-box .first {
+        width: 180px;
+    }
+    .price-box .fourth {
+        width: 200px;
+        left: 60%;
+    }
+    .price-box .third {
+        width: 350px;
+        top: 90%;
+        left: 50%;
+    }
+}
